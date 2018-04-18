@@ -22,7 +22,7 @@ def assign_rooms(list)
   room_assignments
 end
 
-def printer
+def printer(list)
   batch_badge_creator(list).each {|badges| puts badges}
   assign_rooms(list).each {|assigned_rooms| puts assigned_rooms}
 end
