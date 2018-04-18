@@ -17,8 +17,9 @@ def assign_rooms(list)
   room_assignments = []
   num_rooms = 0
   list.each do |speaker_name|
-    do while num_rooms < list.length
+    while num_rooms < list.length
       room_assignments << "Hi #{speaker_name}! You'll be assigned to room #{num_rooms}!"
+      num_rooms+= 1
     end
   end
   room_assignments
