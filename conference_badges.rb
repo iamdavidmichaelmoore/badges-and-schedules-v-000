@@ -19,7 +19,7 @@ def assign_rooms(list)
   list.each do |speaker_name|
     while num_rooms < list.length
       room_assignments << "Hello #{speaker_name}! You'll be assigned to room #{num_rooms + 1}!"
-      num_rooms+= 1
+      num_rooms += 1
     end
   end
   room_assignments
