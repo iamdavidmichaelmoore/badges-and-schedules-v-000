@@ -21,6 +21,7 @@ def assign_rooms(list)
       room_assignments << "Hi #{speaker_name}! You'll be assigned to room #{num_rooms}!"
     end
   end
+  room_assignments
 end
 
 def printer
