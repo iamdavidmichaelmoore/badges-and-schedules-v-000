@@ -9,7 +9,7 @@ def batch_badge_creator(list)
   list.each do |speaker_name|
     badged_speakers << badge_maker(speaker_name)
   end
-  badged_speakers()
+  badged_speakers
 end
 
 
