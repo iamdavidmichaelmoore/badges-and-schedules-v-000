@@ -1,13 +1,13 @@
 
 def badge_maker(name)
   puts "Hello, my name is #{name}."
-end 
+end
 
 
 def batch_badge_creator(array)
   badged_speakers = []
   array.each do |speaker_name|
-    badged_speakers << speaker_name
+    badged_speakers << badge_maker(speaker_name)
   end
   badged_speakers
 end
@@ -20,4 +20,4 @@ end
 
 def printer
 
-end 
+end
